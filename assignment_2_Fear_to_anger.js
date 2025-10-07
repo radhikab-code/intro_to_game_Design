@@ -8,7 +8,7 @@ function draw() {
   background(0);
 
 
-  let blink = map(sin(frameCount * 3), -1, 1, 50, 255); // smooth blinking
+  let blink = map(sin(frameCount * 3), -1, 1, 50, 255); 
   fill(255, 0, 0, blink);
   //circle 1
   push();
