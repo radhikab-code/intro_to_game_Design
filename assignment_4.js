@@ -9,7 +9,7 @@ function preload() {
 }
 function setup() {
   createCanvas(innerWidth, innerHeight);
-  frameRate(1);
+  frameRate(3);
   }
 
 function draw() {
